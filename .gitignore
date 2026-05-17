@@ -18,7 +18,7 @@
 .RData
 
 # You can tell Git to ignore specific files in specific locations
-data/raw_data/auto_raw.dta
+data/raw_data/auto_raw.csv
 
 # You can use the "*" and "?" characters as wild cards.
 # This line tells Git to ignore all Stata data files (.dta) in the

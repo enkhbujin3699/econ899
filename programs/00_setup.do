@@ -18,7 +18,7 @@
 // Example: This code "downloads" one of Stata's built in data sets into the
 // raw data folder
 sysuse auto
-save "../data/raw_data/auto_raw.dta", replace
+export delimited using "../data/raw_data/auto_raw.csv" , replace
 
 // If using R, replace this file with a similar file called 00_setup.R
 // If using Python, replace this file with a a similar file called 00_setup.py

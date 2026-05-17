@@ -9,7 +9,7 @@ do "$programs/config.do"
 
 // Then we read in some data, usually raw data from the data/raw_data folder
 // but occasionally cleaned data from a previously-run program.
-use "$data/raw_data/auto_raw.dta", clear
+import delimited using "$data/raw_data/auto_raw.csv", clear
 
 // When reading in a data file, it is often a good idea to perform a basic 
 // check or two to ensure it has not dramatically changed. In Stata, you can
