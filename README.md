@@ -6,7 +6,7 @@ their replication packages.
 ## Setup instructions
 
 1. Create a *fork* of this repo in your own GitHub account.
-2. Use Git to *clone* your repo on your computer.
+2. Use Git or GitHub Desktop to *clone* your repo on your computer.
 
 You are now ready to start adding and editing files to build your replication package. Use Git/GitHub to track your changes and make regular commits.
 
